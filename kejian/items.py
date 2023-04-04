@@ -9,7 +9,6 @@ import scrapy
 
 
 class SuNingItem(scrapy.Item):
-    table_name = 'top_250'
     # name = scrapy.Field()
     # 序号
     serial_number = scrapy.Field()
